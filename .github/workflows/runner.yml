@@ -3,8 +3,8 @@ name: GSI - Erfan
 on: [push]
 
 env:
-  ROM: OxygenOS
-  ROM_LINK: https://www.googleapis.com/drive/v3/files/1UWpsRj6wQOMHoTmPqnkvSr4BQJcSGS_k?alt=media&key=AIzaSyAPeiAtskDMGvYJqAUb00tTQ3P90ER-LP8
+  ROM: MIUI
+  ROM_LINK: https://bigota.d.miui.com/V11.0.7.0.PCMMIXM/miui_PINEGlobal_V11.0.7.0.PCMMIXM_49c637f1c9_9.0.zip 
   MIR: gof
   TZ: America/Sao_Paulo
   READ: 
