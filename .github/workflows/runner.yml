@@ -4,10 +4,10 @@ on: [push]
 
 env:
   ROM: MIUI
-  ROM_LINK: https://bigota.d.miui.com/V11.0.7.0.PCMMIXM/miui_PINEGlobal_V11.0.7.0.PCMMIXM_49c637f1c9_9.0.zip 
+  ROM_LINK: https://bigota.d.miui.com/V11.0.1.0.QCMINXM/miui_PINEINGlobal_V11.0.1.0.QCMINXM_bd739880d3_10.0.zip 
   MIR: gof
   TZ: America/Sao_Paulo
-  READ: 
+  READ: Warning! This is A64 (Binder) based firmware.
 jobs:
   build:
     runs-on: ubuntu-latest

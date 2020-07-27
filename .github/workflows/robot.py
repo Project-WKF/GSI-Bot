@@ -12,6 +12,7 @@ cat = os.getenv('CAT_FILE')
 romlink = os.getenv('ROM_LINK')
 da = os.getenv('DOWNLOAD_A')
 dab = os.getenv('DOWNLOAD_AB')
+read = os.getenv('READ')
 
 with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_token=os.getenv('TOKEN')) as client:
     client.send_message(
@@ -28,6 +29,8 @@ with pyrogram.Client('bot', os.getenv('API_ID'), os.getenv('API_HASH'), bot_toke
 <b>Thanks to:</b> <a href="https://github.com/yukosky/ErfanGSIs/graphs/contributors">Contributors List</a>
 
 <b>Treble Experience </b> - Channel: @TrebleExperience
+
+<b>READ:</b> {read}
 
 • <b>Ported using ErfanGSIs Tool - <a href="https://github.com/yukosky/ErfanGSIs">Yuko's Based</a>""",
         chat_id=os.getenv('CHAT_ID'),
